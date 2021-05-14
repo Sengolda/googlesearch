@@ -12,7 +12,7 @@ setup(
         description = 'A module that searches google lmao',
         long_description = long_description,
         long_description_content_type = 'text/markdown',
-        url = '',  
+        url = 'https://github.com/Sengolda/googlesearch',  
         author = 'Sengolda',
         license = 'MIT', 
         classifiers = classifiers,
