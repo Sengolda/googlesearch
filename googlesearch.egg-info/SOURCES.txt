@@ -1,0 +1,8 @@
+README.md
+setup.py
+googlesearch/GOOGLESEARCH.py
+googlesearch/__init__.py
+googlesearch.egg-info/PKG-INFO
+googlesearch.egg-info/SOURCES.txt
+googlesearch.egg-info/dependency_links.txt
+googlesearch.egg-info/top_level.txt
