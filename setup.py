@@ -15,6 +15,5 @@ setup(
         url = 'https://github.com/Sengolda/googlesearch',  
         author = 'Sengolda',
         license = 'MIT', 
-        classifiers = classifiers,
         packages = find_packages(),
 )
