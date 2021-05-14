@@ -1,7 +1,6 @@
 from setuptools import setup, find_packages
-# setup tools is a python module that lets you make modules
 
-version = '0.1.0'
+version = '0.1.1'
 
 
 with open('README.md', 'r', encoding = 'utf-8') as f:
