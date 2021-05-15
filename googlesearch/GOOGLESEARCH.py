@@ -4,4 +4,4 @@ def search_google(term):
     except TypeError:
         print("Term is a required argument, that is missing")
 
-search_google()
+search_google(term=None)
