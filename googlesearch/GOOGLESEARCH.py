@@ -1,5 +1,7 @@
+def search_google(term):
+    try:
+        print(f"Searched for {term.replace(' ','+')}\n Results: https://www.google.com/search?q={term.replace(' ','+')}")
+    except TypeError:
+        print("Term is a required argument, that is missing")
 
-def search_google(term:str):
-    print("Searched for {}\n Results: https://www.google.com/search?q={}".format(term, term))
-
-search_google(term="banned")
+search_google()
