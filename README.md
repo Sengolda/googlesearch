@@ -13,4 +13,17 @@ $ python3 -m pip install -U .
 ```
 - Make sure you replace "Downloads" with where your one has been saved
 #### Contributing
-- TO contribute just submit a pull request (There is no req)
+- TO contribute just submit a pull request (There is no req) 
+#### How to import?
+- You can easily import by using the following:
+```py
+import googlesearch
+# TODO: OR
+from googlesearch import *
+```
+- Example Usage:
+```py
+googlesearch.search_google(term="Hello World!")
+# IF YOU DID from googlesearch import * , this will not work, then you would use:
+search_google(term="Hello World!")
+```
