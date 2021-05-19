@@ -9,7 +9,7 @@ python3 -m pip install -U git+https://github.com/Sengolda/googlesearch
 - Other way (Not recomended):
 ```bash
 $ git clone https://github.com/Sengolda/googlesearch.git
-$ cd downloads/googlesearch
+$ cd downloads/googlesearch-main
 $ python3 -m pip install -U .
 ```
 - Make sure you replace "Downloads" with where your one has been saved
