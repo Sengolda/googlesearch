@@ -1,8 +1,11 @@
+import urllib3
 
-def search_google(term):
-    try:
-        print(f"Searched for {term.replace(' ','+')}\n Results: https://www.google.com/search?q={term.replace(' ','+')}")
-    except TypeError:
-        print("Term is a required argument, that is missing")
+def search_google(query):
 
-search_google(term="None")
+    querystring = urllib3.request.urlencode({
+        'q': query
+        })
+
+    full_url = 'https://www.google.com/search?{}'.format(querystring)
+
+    print(full_url)
