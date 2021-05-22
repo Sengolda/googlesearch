@@ -2,7 +2,7 @@ from .GOOGLESEARCH import *
 
 
 __author__ = "Sengolda",
-__version__ = "0.1.2",
+__version__ = "0.1.3",
 __description__ = "A module that searches google lmao",
 __copyright__ = "Copyright {} 2021".format(__author__)
 
