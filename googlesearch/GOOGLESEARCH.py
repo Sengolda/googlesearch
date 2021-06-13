@@ -1,11 +1,10 @@
-import urllib3
+import bs4
+import requests
+
 
 def search_google(query):
+    x = requests.get(f"https://google.com/search?q={query}")
+    soup = bs4.BeautifulSoup(x.text,"html.parser")
+    return soup.text
 
-    querystring = urllib3.request.urlencode({
-        'q': query
-        })
-
-    full_url = 'https://www.google.com/search?{}'.format(querystring)
-
-    print(full_url)
+print(search_google("lion"))
